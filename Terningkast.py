@@ -15,7 +15,7 @@ def terningkast():
         summen = terning1 + terning2
         print("\nSummen er lik", summen)
 
-    print("Hurra!")
+    print("Hurra! Summen er", summen)
 
 terningkast()
 
