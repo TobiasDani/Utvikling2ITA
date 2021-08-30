@@ -1,4 +1,5 @@
 
+
 #Regner ut arealet av en firekant
 
 høyde = int(input("\nHva skal høyden av firekanten være? "))
