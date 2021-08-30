@@ -1,6 +1,7 @@
 
 function addere() {
 
+    //Hva du vil addere:
     tall1Addere = 5
     tall2Addere = 20
 
@@ -11,6 +12,7 @@ function addere() {
 
 function multiplisere() {
 
+    //Hva du vil multiplisere:
     tall1Multiplisere = 5
     tall2Multiplisere = 20
 
@@ -19,7 +21,7 @@ console.log("Produktet er", produktet)
 
 }
 
-
+//Hva velger du?
 valg = "Multiplisere"
 
 if (valg == "Addere") {
