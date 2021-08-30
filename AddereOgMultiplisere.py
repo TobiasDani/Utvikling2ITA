@@ -3,22 +3,22 @@ while True:
     def addere():
         #Regner ut summen
 
-        tall1Addere = int(input("\nHva er ditt første tall? "))
+        tall1Addere = input("\nHva er ditt første tall? ")
 
-        tall2Addere = int(input("Hva er ditt andre tall? "))
+        tall2Addere = input("Hva er ditt andre tall? ")
 
-        summen = tall1Addere + tall2Addere
+        summen = int(tall1Addere) + int(tall2Addere)
 
         print("\nSummen er", summen)
 
 
     #Regner ut produktet
     def multiplisere():
-        tall1Multiplisere = int(input("\nHva er ditt første tall? "))
+        tall1Multiplisere = input("\nHva er ditt første tall? ")
 
-        tall2Multiplisere = int(input("Hva er ditt andre tall? "))
+        tall2Multiplisere = input("Hva er ditt andre tall? ")
 
-        produktet = tall1Multiplisere * tall2Multiplisere
+        produktet = int(tall1Multiplisere) * int(tall2Multiplisere)
 
         print("\nProduktet er", produktet)
 
