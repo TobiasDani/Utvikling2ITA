@@ -7,9 +7,13 @@ while True:
 
         tall2Addere = input("Hva er ditt andre tall? ")
 
-        summen = int(tall1Addere) + int(tall2Addere)
+        try:
+            summen = int(tall1Addere) + int(tall2Addere)
 
-        print("\nSummen er", summen)
+            print("\nSummen er", summen)
+        
+        except:
+            print("\nDet du skrev er ikke gyldig")
 
 
     #Regner ut produktet
@@ -18,10 +22,16 @@ while True:
 
         tall2Multiplisere = input("Hva er ditt andre tall? ")
 
-        produktet = int(tall1Multiplisere) * int(tall2Multiplisere)
+        try:
+            produktet = int(tall1Multiplisere) * int(tall2Multiplisere)
+        
+            print("\nProduktet er", produktet)
 
-        print("\nProduktet er", produktet)
+        except:
+            print("\nDet du skrev er ikke gyldig")
 
+
+    #Velger hva som skal skje
     valg = input("\nVil du addere, multiplisere eller ingenting? ")
 
     if valg == "addere":
@@ -36,3 +46,4 @@ while True:
         exit()
     elif valg == "Ingenting":
         exit()
+
