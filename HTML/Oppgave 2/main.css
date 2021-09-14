@@ -1,0 +1,30 @@
+header {
+  background-color:red;
+  height: auto;
+  width: auto;
+  display: flex;
+}
+
+body {
+  margin: 0px;
+}
+
+main {
+  border-style: solid;
+  border-color: green;
+  border-width: 2px;
+  margin:auto;
+  margin-top: 10px;
+  height: 600px;
+  width: 760px;
+  }
+
+section {
+  background-color: green;
+  margin:auto;
+  height: 200px;
+  width: 300px;
+  margin-left: 5px;
+  margin-top: 10px;
+  float: left;
+  }

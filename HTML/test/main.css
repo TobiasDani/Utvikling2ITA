@@ -1,0 +1,39 @@
+body {
+    font-family: 'Garamond6';
+}
+
+
+
+h1 {
+    color: blue;
+}
+
+
+.boks {
+    height: 300px;
+    width: 300px;
+    border: solid 1px gray;
+    background-color: blue;
+}
+
+
+.boks input {
+    margin-left: 50px;
+    margin-top: 150px;
+
+    background-color:green;
+    color: blue;
+    padding: 10px;
+
+    border: 3px solid white;
+}
+
+.boks input:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+
+img {
+    width: 350px;
+}
