@@ -2,7 +2,28 @@ header {
   background-color:red;
   height: auto;
   width: auto;
+  height: 100px;
+
+}
+
+nav{
   display: flex;
+  float: right;
+}
+
+li {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 body {
@@ -13,18 +34,25 @@ main {
   border-style: solid;
   border-color: green;
   border-width: 2px;
-  margin:auto;
+  margin: auto;
   margin-top: 10px;
   height: 600px;
   width: 760px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
   }
 
 section {
   background-color: green;
-  margin:auto;
+  margin: auto;
   height: 200px;
   width: 300px;
-  margin-left: 5px;
   margin-top: 10px;
-  float: left;
   }
+
+center {
+  margin-top: 10px;
+}
